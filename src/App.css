@@ -71,7 +71,7 @@
   font-size: x-small;
   margin-bottom: 0.1rem;
   margin-right: 0.5rem;
-  color: #bbb;
+  color: white;
 }
 
 /* Chat bubble arrow styling */
@@ -85,7 +85,7 @@
   right: auto;
   bottom: auto;
 
-  border: 22px solid;
+  /* border: 22px solid; */
 }
 
 /* "local" messages are shown on the left side */

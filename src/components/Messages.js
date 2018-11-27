@@ -17,8 +17,9 @@ const Messages = (props) => {
     <section className={'chat-entry '+logLocation}>
       <section className="entry-body">
         <div className="entry-name"> {sender} </div>
-        <div className="entry-bubble"> {body} </div>
-        <div className="entry-time"> <Timestamp time={timeStamp}/> </div>
+        <div className="entry-bubble"> {body}
+          <div className="entry-time"> <Timestamp time={timeStamp}/> </div>
+        </div>
       </section>
     </section>
   );
